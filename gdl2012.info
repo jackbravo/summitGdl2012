@@ -1,0 +1,12 @@
+name = Drupal Latino Gdl 2012
+description = Drupal Latino 2012 
+core = 6.x
+engine = phptemplate
+
+;css
+stylesheets[all][] = css/style.css
+
+;regions
+regions[header] = header
+regions[content] = content
+regions[footer] = footer
