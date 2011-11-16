@@ -1,5 +1,7 @@
 <?php print $page_header;?>
-<div class="content">
-<h1> Hola </h1>
+<div class="container_12">
+  <div class="content">
+    <?php print $content;?>
+  </div> 
 </div>
 <?php print $page_footer;

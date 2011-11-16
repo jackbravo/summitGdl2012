@@ -14,11 +14,6 @@ body {
 }
 .content {
 	display: block;
-	width: 780px;
-	background: #FFFFFF;
-	margin: auto;
-	clear: both;
-	padding: 35px 80px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #666666;
@@ -91,4 +86,6 @@ h2 {
   border: 10px #96C4DD solid;
 }
 
-
+#gdl2012-home .pane-content { 
+  background: #FFF;
+}
