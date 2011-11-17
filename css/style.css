@@ -19,41 +19,6 @@ body {
 	color: #666666;
 	line-height: 21px;
 }
-.footer {
-	display: block;
-	height: 120px;
-	background: #0D4A70;
-	width: 100%;
-	font-size: 32px;
-}
-.siguenos {
-	display: block;
-	width: 940px;
-	margin: auto;
-}
-.siguenos h4 {
-	font-family: 'Bevan', 'Arial Black', serif;	
-	font-weight: normal;
-	color: #3396CC;
-	float: left;
-	margin: 10px;
-}
-.siguenos ul
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	float: left;
-	list-style: none;
-}
-.siguenos a
-{
-	display: block;
-	height: 22px;
-	padding-left: 30px;
-	color: #9DCCF6;
-	text-decoration: none;
-	margin: 10px;
-}
 .fbbtn
 {
 	background: url('../images/icon_facebook.png') 0 -22px no-repeat;;
@@ -86,8 +51,9 @@ h2 {
   border: 10px #96C4DD solid;
 }
 
-#gdl2012-home .pane-content { 
+#gdl2012-home .panel-pane { 
   background: #FFF;
+  margin: 10px 0;
 }
 
 /** Menu **/
@@ -115,6 +81,12 @@ h2 {
   float:right;
 }
 
+#main-menu ul li ul {
+  top:50px;
+  width: 140px;
+}
+
+#main-menu ul li.hovering ul,
 #main-menu ul li:hover ul {
   top:50px!important;
   width: 140px!important;
@@ -223,4 +195,20 @@ h2 {
   font-size: 18px;
   font-weight: normal;
   line-height: 100%;
+}
+
+
+/* Footer */
+.footer {
+	display: block;
+  background: #0C4A6F;
+	width: 100%;
+	font-size: 15px;
+}
+
+.siguenos ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	float: left;
+	list-style: none;
 }
