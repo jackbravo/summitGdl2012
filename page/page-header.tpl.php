@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
   </head>
   <body  class="<?php print $body_classes;?>">
+    <?php print $header; ?>
     <div class="encabezado">
       <h1>DRUPAL SUMMIT LATINO</h1>
     </div>

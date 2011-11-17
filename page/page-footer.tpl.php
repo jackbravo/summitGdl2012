@@ -1,4 +1,5 @@
      <div class="footer">
+        <?php print $footer; ?>
         <div class="siguenos">
           <h4>S&iacute;guenos en:</h4>
             <ul>
