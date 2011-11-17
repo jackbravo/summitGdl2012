@@ -1,12 +1,18 @@
      <div class="footer">
         <?php print $footer; ?>
-        <div class="siguenos">
-          <h4>S&iacute;guenos en:</h4>
-            <ul>
-              <li><a href="http://es-es.facebook.com/pages/Drupal-Summit-Latino-2011/150776571636475" class="fbbtn" title="Facebook">Facebook</a></li>
-                <li><a href="http://twitter.com/#!/drupal_latino" class="twbtn" title="Twitter">Twitter</a></li>
-            </ul>
+        <div id="links">
+          <div id="site-map">
+            <?php 
+              print i18nmenu_translated_tree('menu-site-map');
+            ?>
+          </div>
+          <div id="links">
+            <?php  print i18nmenu_translated_tree('menu-links');?>
+          </div>
+          <div id="contact">
+          </div>
         </div>
+        <span>DrupalSummitLatino copyright 2011</span>
     </div>
     <?php print $closure;?>
     </body>

@@ -11,6 +11,13 @@
   </head>
   <body  class="<?php print $body_classes;?>">
     <?php print $header; ?>
+    <div id="header-bar">
+      <!-- la barra blanca que corre por toda la pagina y esta fuera de los 960 del tema -->
+    </div>
     <div class="encabezado">
-      <h1>DRUPAL SUMMIT LATINO</h1>
+      <div id="main-menu">
+        <?php print theme('links',$primary_links);?>
+      </div>
+      <div id="logo">
+      </div>
     </div>
