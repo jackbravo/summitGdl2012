@@ -13,8 +13,8 @@
     <div id="header-bar">
       <!-- la barra blanca que corre por toda la pagina y esta fuera de los 960 del tema -->
     </div>
-    <div class="encabezado">
-      <div id="main-menu">
+    <div class="encabezado container_12">
+      <div id="main-menu" class='grid_9 prefix_3'>
         <?php print $header; ?>
       </div>
       <div id="logo">

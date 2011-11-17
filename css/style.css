@@ -98,6 +98,7 @@ h2 {
 
 #main-menu {
   padding-top: 30px;
+  float:none;
 }
 
 #main-menu h2 {
@@ -116,10 +117,12 @@ h2 {
 
 #main-menu ul li:hover ul {
   top:50px!important;
+  width: 140px!important;
 }
 
 #main-menu ul li ul li {
   background: url(../images/bg_menu.jpg) repeat;
+  width: 140px!important;
 }
 
 #main-menu ul li ul li a {
@@ -127,7 +130,7 @@ h2 {
   border-right: 0px;
   float:none;
   height: auto; 
-  padding: 15px;
+  font-family:helvetica;
 }
 
 
@@ -144,16 +147,18 @@ h2 {
   color: #72A3C3;
   text-decoration: none;
   border-right: 1px solid #B2B4B3;
-  padding: 20px 40px;
+  padding: 20px 0px;
   height: 15px;
   display:block;
   float:right;
   font-size:18px;
+  width:140px;
+  text-align:center;
 }
 
 #main-menu ul li a:hover {
   color: #B7496E;
-  background: url(../images/b_starblock.png)  15px 20px no-repeat;
+  background: url(../images/b_starblock.png)  10px 17px no-repeat;
   font-size:18px;
 }
 
