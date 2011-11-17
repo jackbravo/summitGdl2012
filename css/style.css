@@ -100,10 +100,40 @@ h2 {
   padding-top: 30px;
 }
 
+#main-menu h2 {
+  font-family: helvetica;
+}
+
+#main-menu ul {
+  background: none;
+}
+
 #main-menu ul li {
   padding: 0px;
   display:block;
   float:right;
+}
+
+#main-menu ul li:hover ul {
+  top:50px!important;
+}
+
+#main-menu ul li ul li {
+  background: url(../images/bg_menu.jpg) repeat;
+}
+
+#main-menu ul li ul li a {
+  font-size: 13px;
+  border-right: 0px;
+  float:none;
+  height: auto; 
+  padding: 15px;
+}
+
+
+#main-menu ul li ul li a:hover  {
+  background:none;
+  font-size:13px;
 }
 
 #main-menu ul li:hover {
@@ -112,7 +142,6 @@ h2 {
 
 #main-menu ul li a {
   color: #72A3C3;
-  font-weight:bold;
   text-decoration: none;
   border-right: 1px solid #B2B4B3;
   padding: 20px 40px;
@@ -134,4 +163,59 @@ h2 {
   height: 347px;
   position: absolute;
   top: 0px;
+}
+
+.megamenu-skin-friendly .hovering .megamenu-parent-title a,
+.megamenu-skin-friendly .hovering .megamenu-parent-title span,
+.megamenu-skin-friendly li.megamenu-slot:hover,
+.megamenu-skin-friendly li.megamenu-slot{ 
+  background: transparent;
+}
+
+.megamenu-skin-friendly li.megamenu-slot {
+  box-shadow:0px 0px 0px;
+  margin-bottom:0px;
+}
+.megamenu-skin-friendly li.megamenu-slot{
+  margin: 0px;
+} 
+
+.megamenu-skin-friendly .megamenu-parent-title a,
+.megamenu-skin-friendly .megamenu-parent-title span,
+.megamenu-skin-friendly .hovering .megamenu-parent-title a:hover{
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+}
+
+.megamenu-skin-friendly .megamenu-slot,
+.megamenu-skin-friendly .megamenu-slot a:hover{
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+}
+
+.megamenu-skin-minimal .megamenu-bin {
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+
+
+.megamenu-skin-friendly li.megamenu-slot{
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-opera-border-radius:0px;
+	-khtml-border-radius:0px;
+  -khtml-box-shadow:rgba(0,0,0,.33) 0px 0px 0px;
+	-moz-box-shadow:rgba(0,0,0,.33) 0px 0px 0px;
+	box-shadow:rgba(0,0,0,.33) 0px 0px 0px;
+
+}
+.megamenu-skin-friendly .megamenu-slot-title {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 100%;
 }

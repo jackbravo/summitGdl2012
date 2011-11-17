@@ -10,13 +10,12 @@
     <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
   </head>
   <body  class="<?php print $body_classes;?>">
-    <?php print $header; ?>
     <div id="header-bar">
       <!-- la barra blanca que corre por toda la pagina y esta fuera de los 960 del tema -->
     </div>
     <div class="encabezado">
       <div id="main-menu">
-        <?php print theme('links',$primary_links);?>
+        <?php print $header; ?>
       </div>
       <div id="logo">
       </div>
