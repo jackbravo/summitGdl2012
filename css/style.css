@@ -61,7 +61,7 @@ h2 {
   border: 10px #96C4DD solid;
 }
 
-#gdl2012-home .panel-pane { 
+.panel-pane { 
   background: #FFF;
   margin: 10px 0;
 }
@@ -208,6 +208,77 @@ h2 {
   line-height: 100%;
 }
 
+/* Participa */
+.participa {
+  background: transparent;
+  margin-bottom:30px;
+}
+
+.participa h2 {
+  color:#FFF;
+  background: url(../images/b_starnoblock.png) 1px 1px no-repeat;
+  padding-left:20px;
+  font-family: Helvetica;
+  font-size:20px;
+  margin-bottom: 10px;
+}
+
+.participa ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.participa li a {
+  color: #FFF;
+  text-decoration:none;
+}
+
+.participa .btn-participa { 
+  display:block;
+  padding: 27px 10px 27px 90px;
+  font-size:16px;
+
+}
+
+.participa .participa-patrocinadores {
+  background: url('../images/btn_patroc.png') 0 -80px no-repeat;
+}
+.participa .participa-patrocinadores:hover {
+  background: url('../images/btn_patroc.png') 0 0px no-repeat;
+}
+
+
+.participa .participa-proponerunasesin {
+  background: url('../images/btn_sesion.png') 0 -80px no-repeat;
+}
+.participa .participa-proponerunasesin:hover {
+  background: url('../images/btn_sesion.png') 0 0px no-repeat;
+}
+
+.participa .participa-proponerunasesin {
+  background: url('../images/btn_sesion.png') 0 -80px no-repeat;
+}
+.participa .participa-proponerunasesin:hover {
+  background: url('../images/btn_sesion.png') 0 0px no-repeat;
+}
+
+.participa .participa-regstrate {
+  background: url('../images/btn_regist.png') 0 -80px no-repeat;
+}
+.participa .participa-regstrate:hover {
+  background: url('../images/btn_regist.png') 0 0px no-repeat;
+}
+
+
+.participa .participa-voluntarios {
+  background: url('../images/btn_volunt.png') 0 -80px no-repeat;
+}
+.participa .participa-voluntarios:hover {
+  background: url('../images/btn_volunt.png') 0 0px no-repeat;
+}
+
+
 
 /* Footer */
 .footer_content {
@@ -257,3 +328,4 @@ h2 {
   display:block;
   color:#93C8F0;
 }
+
