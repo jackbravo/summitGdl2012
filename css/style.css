@@ -22,6 +22,10 @@ body {
 }
 
 
+.panel-pane {
+  padding: 25px 10px;
+}
+
 .content {
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
@@ -52,6 +56,14 @@ h2 {
 	font-family: 'Bevan', 'Arial Black', serif;
 	font-weight: normal;
 	color: #DD4F85;
+}
+
+h2.pane-title{
+  font-size:20px;
+  font-family: helvetica; 
+  padding-left:20px;
+  background: url(../images/b_starblock.png) no-repeat;
+  font-weight:bold;
 }
 
 .div-pict {
@@ -208,10 +220,24 @@ h2 {
   line-height: 100%;
 }
 
+/** Introducción **/
+.introduccion h2.pane-title {
+  font-size:25px;
+  padding-bottom:15px;
+  background-image: none;
+  font-family: 'Bevan', 'Arial Black', Gadget, sans-serif serif;
+  padding-left:0px;
+}
+
+
 /* Participa */
 .participa {
   background: transparent;
   margin-bottom:30px;
+}
+
+.panel-pane.participa{
+  padding: 0px;
 }
 
 .participa h2 {
@@ -277,6 +303,29 @@ h2 {
 .participa .participa-voluntarios:hover {
   background: url('../images/btn_volunt.png') 0 0px no-repeat;
 }
+
+
+/** Noticias **/
+.noticias .pane-content .node {
+  border-bottom: 1px solid #B8486E;  
+  padding: 0px 0 20px 0;
+  margin: 10px;
+}
+
+.noticias .node h2 a {
+  text-decoration: none; 
+	color: #DD4F85;
+  font-size: 20px;
+  font-family: helvetica;
+  padding: 10px 0;
+  display:block;
+}
+
+.noticias a {
+  color: #66AEDE;
+}
+
+
 
 
 
