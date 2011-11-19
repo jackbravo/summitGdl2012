@@ -22,7 +22,9 @@ function gdl2012_preprocess_page(&$vars) {
 
   //determinando el banner por sección
   $path = drupal_get_path('theme','gdl2012');
-  $vars['banner'] = "";
+
+  //esta variable debe de cambiar en función de la seccióm
+  $vars['banner'] = "home-page-banner"; 
   if( arg(0) == "home" && is_null(arg(1))){
     $vars['banner'] = "home-page-banner";
   }
