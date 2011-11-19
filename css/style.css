@@ -325,9 +325,18 @@ h2.pane-title{
   color: #66AEDE;
 }
 
+.noticias a:hover{
+  color: #66AEDE;
+}
 
-
-
+/* Poll */
+#poll-view-voting .poll {
+  margin-top:10px;
+}
+#poll-view-voting .poll label,
+#poll-view-voting .poll .title {
+  color: #66AEDE;
+}
 
 /* Footer */
 .footer_content {
@@ -377,4 +386,3 @@ h2.pane-title{
   display:block;
   color:#93C8F0;
 }
-
