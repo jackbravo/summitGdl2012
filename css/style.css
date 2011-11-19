@@ -338,6 +338,57 @@ h2.pane-title{
   color: #66AEDE;
 }
 
+.poll .vote-form {
+  margin-bottom:10px;
+}
+
+/* Login */
+.pane-user-0 {
+  background:#E7E7E7;
+}
+
+.pane-user-0 .form-item {
+  text-align: left;
+}
+
+.pane-user-0 .form-item label {
+  color: #66AEDE;
+}
+
+.pane-user-0 .form-item input {
+  width:98%;
+}
+
+.form-submit{
+  display:block;
+  background: url(../images/btn_bg_aceptar.jpg) repeat;
+  color: #fff;
+  padding: 2px 15px;
+  margin-bottom:10px;
+  float:right;
+}
+
+.pane-user-0 .item-list {
+  clear:both;
+  color:#66AEDE;
+  font-size:12px
+}
+
+
+.pane-user-0 .item-list li {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+
+.pane-user-0 .item-list  a {
+  color:#66AEDE;
+  font-size:12px
+  text-decoration:none;
+  float:left;
+  padding: 0 5px;
+}
+
 /* Footer */
 .footer_content {
   background: #0C4A6F;
