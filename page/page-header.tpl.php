@@ -19,4 +19,5 @@
       </div>
       <div id="logo">
       </div>
+    <div id="banner" class="<?php print (!empty($banner) )? $banner : "";?>"></div>
     </div>
