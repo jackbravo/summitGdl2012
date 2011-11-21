@@ -3,13 +3,14 @@ body {
 	margin: 0;
 }
 .encabezado {
+  border:1px solid #000;
   position:relative;
 	display: block;
-	width: 940px;
 	clear: both;
 	margin: auto;
   margin-top: -100px;
 	text-align: right;
+  width:940px;
 }
 /** banner  **/
 #banner{
@@ -436,4 +437,24 @@ h2.pane-title{
   text-align:center;
   display:block;
   color:#93C8F0;
+}
+
+/*Paginas interiores */
+.interiores {
+  margin:0px;
+  margin-left: 0px;
+  padding-right:0px;
+  padding-left:10px;
+}
+
+.sidebar {
+  margin:0px;
+  padding-left: 10px;
+  margin-right: 0px;
+}
+
+.interiores-bg {
+  background: #FFF;
+  margin-left:10px;
+  width:940px;
 }

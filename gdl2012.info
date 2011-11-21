@@ -12,5 +12,6 @@ stylesheets[all][] = css/style.css
 regions[header] = header
 regions[content] = content
 regions[footer] = footer
+regions[sidebar] = Sidebar
 
 plugins[panels][layouts] = layouts
