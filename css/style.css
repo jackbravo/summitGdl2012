@@ -21,6 +21,14 @@ body {
   height:300px;
 }
 
+#banner.lugar-page-banner {
+  background: url('../images/banners/lugar_head.jpg');
+  width:940px;
+  height:177px;
+  margin-bottom:17px;
+  margin-top:120px;
+}
+
 
 .panel-pane {
   padding: 25px 10px;
@@ -58,6 +66,7 @@ h2 {
 	color: #DD4F85;
 }
 
+#node-29 .field-field-location .field-label,
 h2.pane-title{
   font-size:20px;
   font-family: helvetica; 
@@ -456,4 +465,21 @@ h2.pane-title{
   background: #FFF;
   margin-left:10px;
   width:940px;
+}
+
+/** Pagina Lugar **/
+#node-29 .vcard {
+  width: 220px;
+  float:left;
+}
+
+#node-29 .field-field-location{
+  border-top: 1px solid #DD4F85;
+  margin-top:10px;
+}
+
+#node-29 .field-field-location .field-label {
+  color:#DD4F85;
+  font-size:20px;
+  margin: 20px 0;
 }

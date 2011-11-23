@@ -27,6 +27,8 @@ function gdl2012_preprocess_page(&$vars) {
   $vars['banner'] = "home-page-banner"; 
   if( arg(0) == "home" && is_null(arg(1))){
     $vars['banner'] = "home-page-banner";
+  }else if( arg(0) == "node" && arg(1) == "29"){
+    $vars['banner'] = "lugar-page-banner";
   }
 
   
