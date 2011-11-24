@@ -81,6 +81,8 @@ h2 {
 	color: #DD4F85;
 }
 
+.block h2,
+#block-menu-menu-involved h2,
 #node-29 .field-field-location .field-label,
 h2.pane-title{
   font-size:20px;
@@ -255,14 +257,18 @@ h2.pane-title{
 
 
 /* Participa */
+
+#block-menu-menu-involved,
 .participa {
   background: transparent;
   margin-bottom:30px;
 }
 
+#block-menu-menu-involved,
 .panel-pane.participa{
   padding: 0px;
 }
+
 
 .participa h2 {
   color:#FFF;
@@ -273,17 +279,23 @@ h2.pane-title{
   margin-bottom: 10px;
 }
 
+
+#block-menu-menu-involved ul li,
 .participa ul li {
   list-style-image: none;
   list-style-type: none;
   margin: 0px;
 }
 
+
+#block-menu-menu-involved li a,
 .participa li a {
   color: #FFF;
   text-decoration:none;
 }
 
+
+#block-menu-menu-involved .btn-participa,
 .participa .btn-participa { 
   display:block;
   padding: 27px 10px 27px 90px;
@@ -291,41 +303,51 @@ h2.pane-title{
 
 }
 
+
+#block-menu-menu-involved .participa-patrocinadores,
 .participa .participa-patrocinadores {
   background: url('../images/btn_patroc.png') 0 -80px no-repeat;
 }
+
+#block-menu-menu-involved .participa-patrocinadores:hover,
 .participa .participa-patrocinadores:hover {
   background: url('../images/btn_patroc.png') 0 0px no-repeat;
 }
 
-
+#block-menu-menu-involved .participa-proponerunasesin,
 .participa .participa-proponerunasesin {
   background: url('../images/btn_sesion.png') 0 -80px no-repeat;
 }
+
+#block-menu-menu-involved .participa-proponerunasesin:hover,
 .participa .participa-proponerunasesin:hover {
   background: url('../images/btn_sesion.png') 0 0px no-repeat;
 }
 
-.participa .participa-proponerunasesin {
-  background: url('../images/btn_sesion.png') 0 -80px no-repeat;
-}
-.participa .participa-proponerunasesin:hover {
-  background: url('../images/btn_sesion.png') 0 0px no-repeat;
-}
-
+#block-menu-menu-involved .participa-regstrate,
 .participa .participa-regstrate {
   background: url('../images/btn_regist.png') 0 -80px no-repeat;
 }
+
+#block-menu-menu-involved .participa-regstrate:hover,
 .participa .participa-regstrate:hover {
   background: url('../images/btn_regist.png') 0 0px no-repeat;
 }
 
 
+#block-menu-menu-involved .participa-voluntarios,
 .participa .participa-voluntarios {
   background: url('../images/btn_volunt.png') 0 -80px no-repeat;
 }
+
+#block-menu-menu-involved .participa-voluntarios:hover,
 .participa .participa-voluntarios:hover {
   background: url('../images/btn_volunt.png') 0 0px no-repeat;
+}
+
+
+#block-menu-menu-involved li a{
+  color: #1E69A0;
 }
 
 
@@ -520,8 +542,28 @@ h2.pane-title{
   margin-top:10px;
 }
 
+#block-menu-menu-involved h2,
 #node-29 .field-field-location .field-label {
   color:#DD4F85;
   font-size:20px;
   margin: 20px 0;
+}
+
+.tweets-pulled-listing h2  {
+  display:none;
+}
+div.tweets-pulled-listing a{
+  color:#707070;
+  text-decoration:none;
+}
+div.tweets-pulled-listing .tweet-text {
+  display:block;
+}
+
+.block-block h2 {
+  margin: 15px 0;
+}
+
+.block-block {
+  margin-bottom: 20px;
 }
