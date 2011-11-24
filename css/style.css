@@ -184,11 +184,14 @@ h2.pane-title{
 
 #logo {
   background: url(../images/logo_dsl.png) no-repeat;
+  text-indent:-99999px; 
   width: 203px;
   height: 347px;
   position: absolute;
   top: 0px;
   left:20px;
+  display:block;
+  color:transparent;
 }
 
 .megamenu-skin-friendly .hovering .megamenu-parent-title a,
@@ -566,4 +569,12 @@ div.tweets-pulled-listing .tweet-text {
 
 .block-block {
   margin-bottom: 20px;
+}
+
+.node h2 a { 
+  color: #DD4F85;
+  font-size:30px;
+  text-decoration:none;
+  padding: 20px 0;
+  display:block;
 }

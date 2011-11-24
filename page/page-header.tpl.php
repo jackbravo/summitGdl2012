@@ -17,7 +17,6 @@
       <div id="main-menu" class='grid_9 prefix_3'>
         <?php print $header; ?>
       </div>
-      <div id="logo">
-      </div>
+      <?php print l('Drupal Latino','<front>',array('attributes' => array('id' => 'logo')));?>
     <div id="banner" class="<?php print (!empty($banner) )? $banner : "";?>"></div>
     </div>
