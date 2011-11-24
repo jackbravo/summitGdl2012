@@ -89,5 +89,17 @@ function gdl2012_menu_item_link($link) {
       )
     );
   }
+
+
+  if($link['menu_name'] == "menu-contact") {
+    $class = strtolower($link['link_title']);
+
+    $link['localized_options'] = array(
+      'attributes'  => array(
+        'class'   =>  'btn-contact contact-'.$class
+      )
+    );
+  }
+
   return l($link['title'], $link['href'], $link['localized_options']);
 }

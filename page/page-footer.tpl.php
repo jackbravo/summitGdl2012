@@ -12,6 +12,7 @@
             </div>
             <div id="contact" class="grid_4">
               <h3><?php print t('Contact');?></h3>
+              <?php print i18nmenu_translated_tree('menu-contact');?>
             </div>
           </div>
           <div class="clear"></div>

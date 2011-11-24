@@ -451,6 +451,33 @@ h2.pane-title{
   padding: 5px 10px;
 }
 
+.footer .contact-facebook {
+	background: url('../images/icon_facebook.png') 0 -22px no-repeat;
+  padding-left:30px;
+  height:18px;
+  display:block;
+  padding-top:5px;
+}
+
+.footer .contact-facebook:hover {
+	background: url('../images/icon_facebook.png') 0 0 no-repeat;
+  height:18px;
+}
+
+.footer .contact-twitter {
+	background: url('../images/icon_twitter.png') 0 -22px no-repeat;
+  padding-left:30px;
+  height:18px;
+  display:block;
+  padding-top:5px;
+}
+
+.footer .contact-twitter:hover {
+	background: url('../images/icon_twitter.png') 0 0 no-repeat;
+  height:18px;
+}
+
+
 #copyright {
   margin: 50px 0 10px 0;
 }
