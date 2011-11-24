@@ -27,10 +27,14 @@ function gdl2012_preprocess_page(&$vars) {
   $vars['banner'] = "home-page-banner"; 
   if( arg(0) == "home" && is_null(arg(1))){
     $vars['banner'] = "home-page-banner";
-  }else if( arg(0) == "node" && arg(1) == "29"){
+  }else if( arg(0) == "node" && arg(1) == "29"){ //lugar
     $vars['banner'] = "lugar-page-banner";
+  }else if( arg(0) == "node" && arg(1) == "35") { //acerca de
+    $vars['banner'] = "acercade-page-banner";
+  }else if( arg(0) == "node" && arg(1) == "28") {
+    $vars['banner'] = "contacto-page-banner";
   }
-
+ 
   
   $pagevars = $vars;
 

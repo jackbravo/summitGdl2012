@@ -29,6 +29,21 @@ body {
   margin-top:120px;
 }
 
+#banner.acercade-page-banner {
+  background: url('../images/banners/acercade_head.jpg');
+  width:940px;
+  height:177px;
+  margin-bottom:17px;
+  margin-top:120px;
+}
+
+#banner.contacto-page-banner {
+  background: url('../images/banners/contacto_head.jpg');
+  width:940px;
+  height:177px;
+  margin-bottom:17px;
+  margin-top:120px;
+}
 
 .panel-pane {
   padding: 25px 10px;
